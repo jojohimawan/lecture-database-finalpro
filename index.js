@@ -24,7 +24,3 @@ db().then(obj => {
 
 app.use('/users', userRoutes);
 app.use('/chats', chatRoutes);
-// app.use('/messages', messageRoutes);
-// app.use('/rooms', roomRoutes);
-// app.use('/members', memberRoutes);
-// app.use('/auth', authRoutes);
